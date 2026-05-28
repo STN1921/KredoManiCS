@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- saved from url=(0724)https://site-d67e243927b12669b2fec105d60a50c244715aca5b850953ee9c459bc5.framercanvas.com/s/app.6819acd6c93e0c0650d5cea19478e630251c05b6/canvas-sandbox-on-page.html?experiment=prototypeTreeDriver%3DdynamicOverrides#services=%7B%22api%22%3A%22https%3A%2F%2Fapi.framer.com%22%2C%22app%22%3A%22https%3A%2F%2Fframer.com%22%2C%22canvas%22%3A%22https%3A%2F%2Fframercanvas.com%22%2C%22events%22%3A%22https%3A%2F%2Fevents.framer.com%22%2C%22login%22%3A%22https%3A%2F%2Fframer.com%2Flogin%22%2C%22userContent%22%3A%22https%3A%2F%2Fframerusercontent.com%22%2C%22modulesCDN%22%3A%22https%3A%2F%2Fframerusercontent.com%2Fmodules%22%2C%22modulesShortLink%22%3A%22https%3A%2F%2Fframer.com%2Fm%22%2C%22previewDomain%22%3A%22framer.app%22%7D -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<script type="importmap-shim">
+{
+	"imports": {
+		"framer": "./scripts/framer.esm.js",
+		"framer-motion": "https://app.framerstatic.com/framer-motion-esm-shim.MOQP3U2I.mjs",
+		"react": "./scripts/react.esm.js",
+		"react/jsx-runtime": "./scripts/react-jsx-runtime.esm.js",
+		"react/jsx-dev-runtime": "./scripts/react-jsx-runtime.esm.js",
+		"react-dom": "./scripts/react-dom.esm.js",
+		"react-dom/client": "./scripts/react-dom.esm.js",
+		"react-dom/server": "./scripts/react-dom-server.esm.js"
+	},
+	"scopes": {
+		"https://ga.jspm.io/": {
+			"fs": "https://framer.com/m/framer/empty.js@0.1.0",
+			"process": "https://framer.com/m/framer/empty.js@0.1.0",
+			"scheduler": "https://ga.jspm.io/npm:scheduler@0.23.0/index.js"
+		}
+	}
+}
+</script>
+
+
+		
+		
+			<script src="./react.production.min(1).js.Без названия"></script>
+<script src="./react-dom.production.min(1).js.Без названия"></script>
+<script src="./react-dom-server-legacy.browser.production.min(1).js.Без названия"></script>
+		
+
+		
+<script>
+	window.__previousRequire__ = window.require
+	window.__previousExports__ = window.exports
+	window.__previousProcess__ = window.process
+
+	window.require = (moduleSpecifier) => {
+		switch (moduleSpecifier) {
+			case "react":
+				return window.React
+			case "object-assign":
+				return Object.assign
+			default:
+				throw new Error("react-jsx-runtime requires unexpected module:" + moduleSpecifier)
+		}
+	}
+
+	window.__REACT_RUNTIME_JSX__ = { Fragment: undefined, jsx: undefined, jsxs: undefined, jsxDEV: undefined }
+	window.exports = {
+		set Fragment(value) { window.__REACT_RUNTIME_JSX__.Fragment = value; },
+		set jsx(value) { window.__REACT_RUNTIME_JSX__.jsx = value; },
+		set jsxs(value) { window.__REACT_RUNTIME_JSX__.jsxs = value; },
+		set jsxDEV(value) {window.__REACT_RUNTIME_JSX__.jsxDEV = value; }
+	}
+</script>
+
+	<script>
+		window.process = { env: { NODE_ENV: "production" } }
+	</script>
+	<script src="./react-jsx-runtime.production.min.js.Без названия"></script>
+	<script>
+		;(function() {
+			const reactJsxRuntimeProductionGlobals = JSON.parse(`["f", "k", "l", "m", "n", "p", "q"]
+`)
+			if (!Array.isArray(reactJsxRuntimeProductionGlobals) || reactJsxRuntimeProductionGlobals.length === 0) {
+				throw new Error("react-jsx-runtime production globals config missing")
+			}
+
+			for (const globalName of reactJsxRuntimeProductionGlobals) {
+				const value = window[globalName]
+				Object.defineProperty(window, globalName, {
+					value,
+					writable: false,
+					configurable: false,
+					enumerable: true,
+				})
+			}
+		})()
+	</script>
+
+<script>
+	// Restore the globals to their prev values.
+	window.require = window.__previousRequire__
+	window.exports = window.__previousExports__
+	window.process = window.__previousProcess__
+</script>
+
+
+		
+		<link href="./canvas-sandbox-on-page.G4CJUUYL.css" rel="stylesheet">
+
+		
+		<link href="https://app.framerstatic.com/chunk-G55ZZX2C.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-PCZ6CBC2.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-DYNCKUFC.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-K5HWHPXD.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-6PNPO5DW.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-HMF7T2NG.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-XELMBOBL.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-TY6KWQWO.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-IJWXG5ZR.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-6CKLCYPD.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-EE4X7EO2.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-Q652OIYH.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-EKYV6PRY.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-DJL2VU7O.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-4WHJFNHK.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-67IDBBKJ.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-T32VKYIN.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-DXEB74DT.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-QNKC3NEE.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-BL7GC6CH.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-SEYZCGEY.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-6C6VSETA.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-KYPY4QS7.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-FYUJQV6J.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-6XIITNQR.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-HQIEXARB.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-I3LQ2UMZ.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-GZI43NW3.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-A6X4EI5H.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-AYYBTPZU.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-ZHOHKZUJ.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-3LQP6MOT.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-4Z5KTIYJ.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-M57LZHTA.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-NYGWFQ3Z.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-KTFXVBUW.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-GWGUMIXR.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-UZNETSBG.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-REJ2XCEK.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-CQBQJZPG.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-XO6BRLGH.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-3CHY5PUC.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-7P35LPP6.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-RNHTTH2C.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-MUNQM3ML.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-WYQMRUEJ.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-BCPJGMBC.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-EJRJRV54.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-5N7HA7LK.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-2ZMIC6S2.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-CYQYL3FQ.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-U7DTPPFQ.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-DK2YIBHP.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-SPWSWTND.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-VWDNKCM5.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-AAERMRRN.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-LPFCITZQ.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-K53K6P2J.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-JCKJSSRB.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-AJZYH3BG.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-TABUHJZN.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-SDISSWE6.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-XFC6OVIX.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-UBKE2VDL.mjs" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-X6TYTL7R.mjs" rel="modulepreload">
+	<style type="text/css" data-framer-css="true"></style></head>
+
+	<body data-framer-theme="light">
+		<main class=""><div><div data-framer-component-type="Frame" data-framer-name="Desktop" id="WQLkyLRf1" name="Desktop" style="display: block; flex: 0 0 auto; user-select: none; background-color: rgb(255, 255, 255); pointer-events: none; width: auto; height: 780px; top: 0px; left: 0px; position: relative; min-height: 100vh; overflow-x: var(--overflow-clip-fallback, clip); overflow-y: var(--overflow-clip-fallback, clip); transform: none;"><div data-framer-component-type="Frame" id="htC51Uz5T" data-framer-name="Landing Page - Hero" name="Landing Page - Hero" style="display: block; flex: 0 0 auto; user-select: none; background-color: rgb(255, 254, 252); pointer-events: none; inset: 0px; gap: 0px; overflow: hidden; transform: none;"><div data-framer-component-type="Frame" id="Yzty7rG2j" data-framer-name="Frame 6" name="Frame 6" style="display: flex; flex: 0 0 auto; user-select: none; background-color: rgb(255, 255, 255); pointer-events: none; width: 1401px; height: min-content; top: 32px; left: 56px; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 24px 0px; padding: 24px; flex-flow: row; place-content: center; align-items: center; gap: 48px; overflow: visible; transform: none;"><div id="OiLjELYlE" data-framer-name="KredoMani" data-framer-component-type="RichTextContainer" style="opacity: 1; width: auto; height: auto; white-space: pre; --framer-paragraph-spacing: 0px; position: relative; transform: none;"><p class="framer-text" style="--framer-font-size: 22px;"><span class="framer-text" style="--font-selector: SW50ZXItU2VtaUJvbGQ=; --framer-font-family: &quot;Inter-SemiBold&quot;, &quot;Inter&quot;, sans-serif; --framer-font-weight: 600; --framer-font-size: 22px;">KredoMani</span></p></div><div data-framer-component-type="Frame" id="PiNiFFggF" data-framer-name="Frame 5" name="Frame 5" style="display: flex; flex: 1 0 0px; user-select: none; pointer-events: none; width: 1px; height: min-content; position: relative; padding: 0px; flex-flow: row; place-content: center flex-end; align-items: center; gap: 134px; overflow: visible; transform: none;"><div data-framer-component-type="Frame" id="BqdrfS2Hz" data-framer-name="Frame 1" name="Frame 1" style="display: flex; flex: 0 0 auto; user-select: none; background-color: rgb(251, 249, 247); pointer-events: none; width: min-content; height: min-content; border-radius: 100px; position: relative; padding: 4px 8px; flex-flow: row; place-content: center flex-start; align-items: center; gap: 8px; overflow: visible; transform: none;"><div data-framer-component-type="SVG" _constraints="[object Object]" widthtype="0" heighttype="0" rotation="0" name="money-03" parentsize="1" shadows="" id="GbJsdpSlQ" aria-hidden="true" style="position: relative; image-rendering: pixelated; flex-shrink: 0; opacity: 1; width: 16px; height: 16px; fill: rgb(0, 0, 0); color: rgb(0, 0, 0); transform: none;" _domrect="[object Object]"><div class="svgContainer" style="inset: 0px; position: absolute;"><svg style="width:100%;height:100%;" viewBox="0 0 16 16" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-1431872291_1211"></use></svg></div></div><div id="kjo_Ltno_" data-framer-name="Secure &amp; private" data-framer-component-type="RichTextContainer" style="opacity: 1; width: auto; height: auto; white-space: pre; --framer-paragraph-spacing: 0px; position: relative; transform: none;"><p class="framer-text" style="--framer-font-size: 12px;"><span class="framer-text" style="--font-selector: SW50ZXItTWVkaXVt; --framer-font-family: &quot;Inter-Medium&quot;, &quot;Inter&quot;, sans-serif; --framer-font-weight: 500; --framer-font-size: 12px; --framer-text-color: rgba(87, 72, 54, 1);">Secure &amp; private</span></p></div><div data-frame-border="true" style="position: absolute; inset: 0px; border-radius: inherit; corner-shape: inherit; pointer-events: none; border-style: solid; border-color: rgb(245, 243, 241); border-width: 1px;"></div></div></div></div><div data-framer-component-type="Frame" data-framer-layout-hint-center-x="true" data-framer-layout-hint-center-y="true" id="i7P444mbA" data-framer-name="Frame 130" name="Frame 130" style="display: flex; flex: 0 0 auto; user-select: none; pointer-events: none; width: 80.0265%; height: min-content; left: 50%; top: 50%; padding: 35px 0px; flex-flow: row; place-content: flex-start; align-items: flex-start; gap: 176px; overflow: visible; transform: translate(-50%, -50%);"><div data-framer-component-type="Frame" id="GBNrMucuL" data-framer-name="Frame 128" name="Frame 128" style="display: flex; flex: 0 0 auto; user-select: none; pointer-events: none; width: min-content; height: min-content; position: relative; padding: 0px; flex-flow: column; place-content: flex-start; align-items: flex-start; gap: 16px; overflow: visible; transform: none;"><div data-framer-component-type="Frame" id="xk9RXv7Wj" data-framer-name="Frame 123" name="Frame 123" style="display: flex; flex: 0 0 auto; user-select: none; pointer-events: none; width: min-content; height: min-content; position: relative; padding: 0px; flex-flow: column; place-content: flex-start; align-items: flex-start; gap: 16px; overflow: visible; transform: none;"><div data-framer-component-type="Frame" id="vDhvjtuKT" data-framer-name="Frame 1" name="Frame 1" style="display: flex; flex: 0 0 auto; user-select: none; pointer-events: none; width: min-content; height: min-content; border-radius: 8px; background: linear-gradient(90deg, rgb(241, 232, 221) 0%, rgb(248, 243, 238) 100%); position: relative; padding: 8px; flex-flow: row; place-content: center flex-start; align-items: center; gap: 8px; overflow: visible; transform: none;"><div data-framer-component-type="SVG" _constraints="[object Object]" widthtype="0" heighttype="0" rotation="0" name="clock5" parentsize="1" shadows="" id="u0LFXr00L" aria-hidden="true" style="position: relative; image-rendering: pixelated; flex-shrink: 0; opacity: 1; width: 16px; height: 16px; fill: rgb(0, 0, 0); color: rgb(0, 0, 0); transform: none;" _domrect="[object Object]"><div class="svgContainer" style="inset: 0px; position: absolute;"><svg style="width:100%;height:100%;" viewBox="0 0 16 16" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg806523890_488"></use></svg></div></div><div id="V6NK_SwuY" data-framer-name="Coming soon" data-framer-component-type="RichTextContainer" style="opacity: 1; width: auto; height: auto; white-space: pre; --framer-paragraph-spacing: 0px; position: relative; transform: none;"><p class="framer-text" style="--framer-font-size: 12px;"><span class="framer-text" style="--font-selector: SW50ZXItTWVkaXVt; --framer-font-family: &quot;Inter-Medium&quot;, &quot;Inter&quot;, sans-serif; --framer-font-weight: 500; --framer-font-size: 12px; --framer-text-color: rgba(87, 72, 54, 1);">Coming soon</span></p></div><div data-frame-border="true" style="position: absolute; inset: 0px; border-radius: inherit; corner-shape: inherit; pointer-events: none; border-style: solid; border-color: rgb(245, 243, 241); border-width: 1px;"></div></div><div id="jVpKE62ht" data-framer-name="KredoMani is coming soon" data-framer-component-type="RichTextContainer" style="opacity: 1; width: 364px; height: auto; white-space: pre-wrap; overflow-wrap: break-word; word-break: break-word; --framer-paragraph-spacing: 0px; position: relative; transform: none;"><p class="framer-text" style="--framer-font-size: 56px;"><span class="framer-text" style="--font-selector: SW50ZXItU2VtaUJvbGQ=; --framer-font-family: &quot;Inter-SemiBold&quot;, &quot;Inter&quot;, sans-serif; --framer-font-weight: 600; --framer-font-size: 56px;">KredoMani is coming soon</span></p></div></div><div id="RJNrGSRTy" data-framer-name="We&#39;re preparing a simpler way to manage short-term credit. Stay tuned for launch updates" data-framer-component-type="RichTextContainer" style="opacity: 1; width: 364px; height: auto; white-space: pre-wrap; overflow-wrap: break-word; word-break: break-word; --framer-paragraph-spacing: 0px; position: relative; transform: none;"><p class="framer-text" style="--framer-font-size: 20px;"><span class="framer-text" style="--font-selector: SW50ZXItTWVkaXVt; --framer-font-family: &quot;Inter-Medium&quot;, &quot;Inter&quot;, sans-serif; --framer-font-weight: 500; --framer-font-size: 20px; --framer-text-color: rgba(51, 51, 51, 0.7200000286102295);">We're preparing a simpler way to manage short-term credit. Stay tuned for launch updates</span></p></div><div data-framer-component-type="Frame" id="mUXEHcCTT" data-framer-name="Frame 125" name="Frame 125" style="display: flex; flex: 0 0 auto; user-select: none; pointer-events: none; width: 100%; height: min-content; position: relative; padding: 0px; flex-flow: column; place-content: flex-start; align-items: flex-start; gap: 16px; overflow: visible; transform: none;"><div data-framer-component-type="Frame" id="qOUl0u17H" data-framer-name="Frame 127" name="Frame 127" style="display: flex; flex: 0 0 auto; user-select: none; pointer-events: none; width: 100%; height: min-content; position: relative; padding: 0px; flex-flow: column; place-content: flex-start; align-items: flex-start; gap: 8px; overflow: visible; transform: none;"><div data-framer-component-type="Frame" id="EVBJA2wKr" data-framer-name="Inputs" name="Inputs" style="display: block; flex: 0 0 auto; user-select: none; pointer-events: none; width: 100%; height: 48px; position: relative; gap: 0px; overflow: visible; transform: none;"><div data-framer-component-type="Frame" data-framer-layout-hint-center-y="true" id="Jvf3izWFV" data-framer-name="Background" name="Background" style="display: block; flex: 0 0 auto; user-select: none; pointer-events: none; height: 48px; top: 50%; right: 0px; left: 0px; border-radius: 8px; transform: translateY(-50%);"><div data-frame-border="true" style="position: absolute; inset: 0px; border-radius: inherit; corner-shape: inherit; pointer-events: none; border-style: solid; border-color: rgb(235, 234, 230); border-width: 1px;"></div></div><div data-framer-component-type="SVG" _constraints="[object Object]" widthtype="0" heighttype="0" left="16" top="16" rotation="0" name="mail-01" parentsize="1" shadows="" id="hPCuogys9" aria-hidden="true" style="image-rendering: pixelated; flex-shrink: 0; opacity: 1; transform: translate(16px, 16px) rotate(0deg); width: 16px; height: 16px; position: absolute; fill: rgb(0, 0, 0); color: rgb(0, 0, 0);"><div class="svgContainer" style="transform-origin: left top; transform: scale(1, 1); width: 16px; height: 16px;"><svg style="width:100%;height:100%;" viewBox="0 0 16 16" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-803898177_880"></use></svg></div></div></div><div data-framer-component-type="Frame" id="Xk8s9OD7f" data-framer-name="Frame 124" name="Frame 124" style="display: flex; flex: 0 0 auto; user-select: none; background-color: rgb(0, 0, 0); pointer-events: none; width: 365px; height: 48px; border-radius: 8px; position: relative; padding: 8px; flex-flow: row; place-content: center; align-items: center; gap: 8px; overflow: visible; transform: none;"><div data-framer-component-type="SVG" _constraints="[object Object]" widthtype="0" heighttype="0" rotation="0" name="arrow-right-02" parentsize="1" shadows="" id="GAN4BpC6p" aria-hidden="true" style="position: relative; image-rendering: pixelated; flex-shrink: 0; opacity: 1; width: 16px; height: 16px; fill: rgb(0, 0, 0); color: rgb(0, 0, 0); transform: none;" _domrect="[object Object]"><div class="svgContainer" style="inset: 0px; position: absolute;"><svg style="width:100%;height:100%;" viewBox="0 0 16 16" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg4140312_355"></use></svg></div></div></div></div><div data-framer-component-type="Frame" id="Rh5walEZj" data-framer-name="Frame 126" name="Frame 126" style="display: flex; flex: 0 0 auto; user-select: none; pointer-events: none; width: min-content; height: min-content; position: relative; padding: 0px; flex-flow: row; place-content: center flex-start; align-items: center; gap: 6px; overflow: visible; transform: none;"><div data-framer-component-type="SVG" _constraints="[object Object]" widthtype="0" heighttype="0" rotation="0" name="shield-01" parentsize="1" shadows="" id="sGKcF0gRN" aria-hidden="true" style="position: relative; image-rendering: pixelated; flex-shrink: 0; opacity: 1; width: 16px; height: 16px; fill: rgb(0, 0, 0); color: rgb(0, 0, 0); transform: none;" _domrect="[object Object]"><div class="svgContainer" style="inset: 0px; position: absolute;"><svg style="width:100%;height:100%;" viewBox="0 0 16 16" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-505570102_621"></use></svg></div></div><div id="Kp5qeaEH5" data-framer-name="No spam. Unsubscribe anytime." data-framer-component-type="RichTextContainer" style="opacity: 1; width: auto; height: auto; white-space: pre; --framer-paragraph-spacing: 0px; position: relative; transform: none;"><p class="framer-text" style="--framer-font-size: 12px;"><span class="framer-text" style="--font-selector: SW50ZXItTWVkaXVt; --framer-font-family: &quot;Inter-Medium&quot;, &quot;Inter&quot;, sans-serif; --framer-font-weight: 500; --framer-font-size: 12px; --framer-text-color: rgba(51, 51, 51, 0.7200000286102295);">No spam. Unsubscribe anytime.</span></p></div></div></div></div><div data-framer-component-type="Frame" id="BCAXsperO" style="display: block; flex: 0 0 auto; user-select: none; pointer-events: none; width: 364px; height: 140px; bottom: 49px; left: 0px; z-index: 1; gap: 20px; overflow: hidden; position: absolute; transform: none;"><div data-framer-component-type="Frame" data-framer-layout-hint-center-x="true" id="GNJDZJhuq" style="display: flex; flex: 0 0 auto; user-select: none; pointer-events: none; width: 240px; height: min-content; left: 50%; top: 20px; min-height: 40px; padding: 0px; flex-flow: column; place-content: flex-start; align-items: flex-start; gap: 10px; transform: translateX(-50%);"><div class="framer-form-text-input framer-form-input-wrapper" id="T0qLZYyDu" _constraints="[object Object]" width="301" widthtype="0" heighttype="0" right="-62" top="-2" bottom="-6" style="--framer-input-border-style: solid; --framer-input-border-color: rgba(136, 136, 136, 0.1); --framer-input-border-bottom-width: 1px; --framer-input-border-top-width: 1px; --framer-input-border-right-width: 1px; --framer-input-border-left-width: 1px; --framer-input-border-radius-top-left: 10px; --framer-input-border-radius-top-right: 10px; --framer-input-border-radius-bottom-right: 10px; --framer-input-border-radius-bottom-left: 10px; --framer-input-padding: 12px; z-index: 1; --framer-input-focused-border-width: 1px; --framer-input-focused-border-style: solid; --framer-input-focused-border-color: rgba(0, 153, 255, 1); --framer-input-icon-mask-image: none; --framer-input-font-color: rgb(153, 153, 153); --framer-input-font-family: &quot;Inter&quot;; --framer-input-font-weight: 400; --framer-input-font-size: 14px; --framer-input-font-letter-spacing: 0em; --framer-input-font-line-height: 1.2em; --framer-input-placeholder-color: rgb(153, 153, 153); flex: 0 0 auto; position: absolute; bottom: -6px; right: -62px; top: -2px; width: 301px; transform: none;" _domrect="[object Object]"><input data-1p-ignore="true" data-lpignore="true" data-form-type="other" autocomplete="off" type="email" name="Email" placeholder="Enter your mail" class="framer-form-input framer-form-input-empty" value=""></div></div><div data-framer-component-type="ComponentContainer" data-framer-component-container="true" id="HkDHclCBW" style="display: block; flex: 0 0 auto; user-select: none; height: 48px; right: 0px; bottom: 18px; left: 0px; overflow: visible; transform: none;"><button class="framer-ieefO framer-xalq2h framer-v-xalq2h" data-framer-name="Default" data-reset="button" tabindex="0" style="background-color: rgb(0, 0, 0); width: 100%; height: 100%; border-radius: 10px; opacity: 1;"><div class="framer-iuw2ze" data-framer-component-type="RichTextContainer" style="--extracted-r6o4lv: rgb(255, 255, 255); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none;"><p class="framer-text" style="--font-selector: SW50ZXItU2VtaUJvbGQ=; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 14px; --framer-font-weight: 600; --framer-text-color: var(--extracted-r6o4lv, rgb(255, 255, 255));">Notify me</p></div></button></div></div><div data-framer-component-type="Frame" id="iV0QeizGq" data-framer-name="ChatGPT Image May 27, 2026, 10_09_35 AM 1" name="ChatGPT Image May 27, 2026, 10_09_35 AM 1" style="display: block; flex: 0 0 auto; user-select: none; pointer-events: none; width: 421px; height: auto; border-radius: 24px; position: relative; aspect-ratio: 1 / 1; transform: none;"><div data-framer-background-image-wrapper="true" style="position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;"><div style="display: contents; border-radius: inherit; corner-shape: inherit;"><img loading="eager" src="./KlkAW25AB6zLtQbTK8HNFBpuU(1).png" style="display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: fill; position: absolute; visibility: visible;"><img loading="lazy" src="./KlkAW25AB6zLtQbTK8HNFBpuU(2).png" style="display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: fill; position: absolute; visibility: hidden;"><img loading="lazy" style="display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: fill; position: absolute; visibility: hidden;"></div></div></div></div></div></div></div></main>
+		<script>
+	const defaultFetch = window.fetch.bind(window)
+	window.fetch = function(input, init) {
+		// Can be set via `installShimFetchHook` from `importShim.ts`.
+		const fetchHook = window.esmsFetchHook
+		if (fetchHook) return fetchHook(input, init, defaultFetch, "global")
+		return defaultFetch(input, init)
+	}
+
+	// Init options for es-module-shims: https://github.com/guybedford/es-module-shims#init-options
+	window.esmsInitOptions = {
+		shimMode: true,
+		mapOverrides: true,
+		revokeBlobURLs: true,
+		resolve: function (id, parentUrl, defaultResolve) {
+			// Can be set via `installShimResolveHook` from `importShim.ts`.
+			const resolveHook = window.esmsResolveHook
+			if (resolveHook) return resolveHook(id, parentUrl, defaultResolve)
+			return defaultResolve(id, parentUrl)
+		},
+		fetch: function(input, init) {
+			// Can be set via `installShimFetchHook` from `importShim.ts`.
+			const fetchHook = window.esmsFetchHook
+			if (fetchHook) return fetchHook(input, init, defaultFetch, "module-loader")
+			return defaultFetch(input, init)
+		},
+	}
+
+	// A lot of libraries assume `process.env.NODE_ENV` is present in runtime/buildtime, so we are polyfilling it
+	window.process = {
+		...window.process,
+		env: {
+			...window.process?.env,
+			NODE_ENV: "production",
+		},
+	}
+</script>
+
+		
+		<script src="./canvas-sandbox-on-page.XD42NF33.mjs" type="module"></script>
+
+
+<script type="importmap-shim" id="framer-user-importmap">{"imports":{}}</script><script type="importmap-shim" id="framer-local-modules">{"imports":{"#framer/local/canvasComponent/VXf9lnSXE/VXf9lnSXE.js":"https://framerusercontent.com/modules/PQfbZJvMZ0hrpuGcWK6j/ShYFONd37fEVfVrlzlCa/VXf9lnSXE.js","#framer/local/screen/augiA20Il/augiA20Il.js":"https://framerusercontent.com/modules/c862luVZELdZYvRLOBIw/cUOK7SmPgxIFzRp6Grt5/augiA20Il.js","#framer/local/siteMetadata/siteMetadata/siteMetadata.js":"https://framerusercontent.com/modules/eL0U5mYEqQSwKK6X6Sjg/Mt8hakbioJ5VeSJfxIMO/siteMetadata.js","#framer/local/snippets/snippets/snippets.js":"https://framerusercontent.com/modules/evwKlmFcBg5l4mkZ182X/USJSqOonckvFhsP93JD6/snippets.js","#framer/local/webPageMetadata/augiA20Il/augiA20Il.js":"https://framerusercontent.com/modules/fBAtHryShTpHHBRYWqe3/1WrNIUqZK3A0geC4zb5j/augiA20Il.js"}}</script><div id="svg-templates" aria-hidden="true" style="position: absolute; overflow: hidden; bottom: 0px; left: 0px; width: 0px; height: 0px; z-index: 0; contain: strict;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" id="svg-1431872291_1211">
+<path d="M9.66645 8.00164C9.66645 8.92211 8.92025 9.66831 7.99978 9.66831C7.07932 9.66831 6.33313 8.92211 6.33313 8.00164C6.33313 7.08117 7.07932 6.33496 7.99978 6.33496C8.92025 6.33496 9.66645 7.08117 9.66645 8.00164Z" stroke="#574836" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M10.6667 3.33496C12.3196 3.33496 13.4602 3.59109 14.0886 3.78584C14.4504 3.89797 14.6667 4.24089 14.6667 4.61966V11.1232C14.6667 11.8666 13.848 12.4259 13.1175 12.288C12.4908 12.1696 11.6738 12.0746 10.6667 12.0746C7.49944 12.0746 6.73977 13.2784 2.09657 12.2544C1.64847 12.1556 1.33337 11.7526 1.33337 11.2938V4.61573C1.33337 3.96516 1.94723 3.49073 2.58536 3.61736C6.79784 4.45327 7.61397 3.33496 10.6667 3.33496Z" stroke="#574836" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M1.33337 6.00228C2.63426 6.00228 3.80326 4.93899 3.95271 3.83839M12.3337 3.66895C12.3337 5.02871 13.5104 6.31494 14.6667 6.31494M14.6667 10.0023C13.4006 10.0023 12.1734 10.8758 12.068 12.0678M4.00037 12.333C4.00037 10.8602 2.80646 9.66636 1.3337 9.66636" stroke="#574836" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg><svg width="16" height="16" viewBox="0 0 16 16" fill="none" id="svg806523890_488">
+<path d="M7.99992 14.6663C11.6818 14.6663 14.6666 11.6816 14.6666 7.99967C14.6666 4.31778 11.6818 1.33301 7.99992 1.33301C4.31802 1.33301 1.33325 4.31778 1.33325 7.99967C1.33325 11.6816 4.31802 14.6663 7.99992 14.6663Z" stroke="#574836" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M8 4V8L9.33333 10.3333" stroke="#574836" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg><svg width="16" height="16" viewBox="0 0 16 16" fill="none" id="svg-803898177_880">
+<path d="M1.33325 4L5.94193 6.61131C7.64098 7.574 8.35885 7.574 10.0579 6.61131L14.6666 4" stroke="#9E9E9E" stroke-linejoin="round"></path>
+<path d="M1.34377 8.98341C1.38735 11.0271 1.40914 12.0489 2.16323 12.8059C2.91731 13.5629 3.96681 13.5892 6.06581 13.6419C7.35945 13.6745 8.64039 13.6745 9.93405 13.6419C12.0331 13.5892 13.0825 13.5629 13.8367 12.8059C14.5907 12.0489 14.6125 11.0271 14.6561 8.98341C14.6701 8.32628 14.6701 7.67308 14.6561 7.01594C14.6125 4.97225 14.5907 3.9504 13.8367 3.19345C13.0825 2.4365 12.0331 2.41013 9.93405 2.35739C8.64039 2.32488 7.35945 2.32488 6.0658 2.35738C3.96681 2.41012 2.91731 2.43648 2.16322 3.19344C1.40913 3.9504 1.38735 4.97224 1.34376 7.01594C1.32975 7.67308 1.32975 8.32628 1.34377 8.98341Z" stroke="#9E9E9E" stroke-linejoin="round"></path>
+</svg><svg width="16" height="16" viewBox="0 0 16 16" fill="none" id="svg4140312_355">
+<path d="M12.3334 8H3.33337" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M8.66663 12C8.66663 12 12.6666 9.05407 12.6666 8C12.6666 6.94587 8.66663 4 8.66663 4" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg><svg width="16" height="16" viewBox="0 0 16 16" fill="none" id="svg-505570102_621">
+<path d="M12.4725 2.3299C11.211 1.70222 9.66727 1.33301 8 1.33301C6.33273 1.33301 4.789 1.70222 3.52744 2.3299C2.90879 2.63771 2.59946 2.79162 2.29973 3.27553C2 3.75944 2 4.22799 2 5.1651V7.49107C2 11.28 5.02824 13.3866 6.782 14.2889C7.27113 14.5405 7.51567 14.6663 8 14.6663C8.48433 14.6663 8.72887 14.5405 9.21793 14.2889C10.9717 13.3866 14 11.28 14 7.49107V5.1651C14 4.228 14 3.75945 13.7003 3.27553C13.4005 2.79161 13.0912 2.63771 12.4725 2.3299Z" stroke="#937D68" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></div></body></html>
